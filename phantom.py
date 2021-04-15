@@ -75,15 +75,15 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('𝐇𝐄𝐋𝐏', callback_data='help'),
+        InlineKeyboardButton('𝐂𝐋𝐎𝐒𝐄', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Alain_Champion'),
-        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/PhantomBotz')
+        InlineKeyboardButton('𝐎𝐖𝐍𝐄𝐑', url='https://t.me/SAMEER_795'),
+        InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/joinchat/RTy_Jzvw4xEyNzM9')
     ],
     [
-        InlineKeyboardButton('Rᴇᴘᴏ', url='https://GitHub.com/PhantomBotz/Telegraph_Bot')
+        InlineKeyboardButton('𝐎𝐓𝐇𝐄𝐓 𝐁𝐎𝐓𝐒', url='https://t.me/joinchat/nJaoxdbmtmAzZTU1')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -94,7 +94,7 @@ I'm a Telegraph Uploader that can upload photo video and gif.
         
 Simply send me photo, video or gif to upload to telegra.ph
         
-Made with ❤️ by @PhantomBotz</b>""",
+Made with ❤️ by @SAMEER_795</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
