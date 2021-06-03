@@ -75,16 +75,16 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('𝐇𝐄𝐋𝐏', callback_data='help'),
-        InlineKeyboardButton('𝐂𝐋𝐎𝐒𝐄', callback_data='close')
+        InlineKeyboardButton('🙏𝐇𝐄𝐋𝐏🙏', callback_data='help'),
+        InlineKeyboardButton('😕𝐂𝐋𝐎𝐒𝐄😕', callback_data='close')
     ],
     [
-        InlineKeyboardButton('𝐎𝐖𝐍𝐄𝐑', url='https://t.me/SAMEER_795'),
-        InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url='https://t.me/joinchat/RTy_Jzvw4xEyNzM9')
+        InlineKeyboardButton('💖𝐎𝐖𝐍𝐄𝐑💖', url='https://t.me/SAMEER_795'),
+        InlineKeyboardButton('😁𝐒𝐔𝐏𝐏𝐎𝐑𝐓😁', url='https://t.me/joinchat/RTy_Jzvw4xEyNzM9')
     ],
     [
-        InlineKeyboardButton('𝐎𝐓𝐇𝐄𝐓 𝐁𝐎𝐓𝐒', url='https://t.me/joinchat/nJaoxdbmtmAzZTU1')
-    ]]
+        InlineKeyboardButton('😎𝐎𝐓𝐇𝐄𝐑 𝐁𝐎𝐓𝐒😎', url='https://t.me/joinchat/nJaoxdbmtmAzZTU1')
+    ]]                
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
