@@ -37,7 +37,7 @@ Some Of The Mandatory Vars Are :-
 
 <a href="https://t.me/joinchat/FNgu5eTO7jE1OWNl"><img src="https://img.shields.io/badge/Join-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/D3_krish"><img src="https://img.shields.io/badge/Contact-Devloper%10D3_krish-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/D3_krish"><img src="https://img.shields.io/badge/Contact-Devloper%20D3_krish-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 </details>
 
