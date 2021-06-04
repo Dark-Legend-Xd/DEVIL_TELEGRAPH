@@ -94,7 +94,7 @@ async def home(client, message):
         
 𝚂𝚒𝚖𝚙𝚕𝚢 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚙𝚑𝚘𝚝𝚘, 𝚟𝚒𝚍𝚎𝚘 𝚘𝚛 𝚐𝚒𝚏 𝚝𝚘 𝚞𝚙𝚕𝚘𝚊𝚍 𝚝𝚘 𝚝𝚎𝚕𝚎𝚐𝚛𝚊.𝚙𝚑
         
-𝙼𝚊𝚍𝚎 𝚠𝚒𝚝𝚑 ⚜️ 𝚋𝚢 @D3_krish</b>""",
+..</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
