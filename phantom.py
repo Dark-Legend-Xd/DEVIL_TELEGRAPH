@@ -86,7 +86,6 @@ async def home(client, message):
         InlineKeyboardButton('🔱𝙾𝚃𝙷𝙴𝚁 𝙱𝙾𝚃🔱', url='https://t.me/D3VIL_SUPPORT')
     ]]                
   reply_markup = InlineKeyboardMarkup(buttons)
-  await Tgraph.reply_sticker("CAACAgUAAxkBAAIZFWCquxoG_Ervt_4d61DnSF3YKLI9AALGAgAClA5RVUG4_pmGDtAXHwQ")
   await Tgraph.send_message(
         chat_id=message.chat.id,
         text="""<b>Hey there I am here,
