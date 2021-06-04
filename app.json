@@ -1,6 +1,6 @@
 {
-    "name": "savage Telegraph Bot",
-    "description": "A bot that can upload medias to telegra.ph",
+    "name": "𝙳3𝚅𝙸𝙻 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 𝙱𝙾𝚃",
+    "description": "𝙰 𝚋𝚘𝚝 𝚝𝚑𝚊𝚝 𝚌𝚊𝚗 𝚞𝚙𝚕𝚘𝚊𝚍 𝚖𝚎𝚍𝚒𝚊 𝚝𝚘 𝚝𝚎𝚕𝚎𝚐𝚛𝚊.𝚙𝚑 𝙼𝙰𝙳𝙴 𝙱𝚈:-@𝙳3_𝚔𝚛𝚒𝚜𝚑",
     "logo": "https://telegra.ph/file/bc9ed71c462c8cb8cc02c.jpg",
     "keywords": [
         "Telegra.ph",
@@ -9,8 +9,8 @@
         "Alain"
     ],
     "website": "",
-    "repository": "https://github.com/PhantomBotz/Telegrah_Bot/",
-    "success_url": "https://telegram.dog/Alain_Champion",
+    "repository": "https://github.com/D3KRISH/D3VIL_TELEGRAPH/",
+    "success_url": "https://telegram.dog/D3_krish",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
