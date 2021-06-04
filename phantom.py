@@ -75,26 +75,27 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('🙏𝐇𝐄𝐋𝐏🙏', callback_data='help'),
-        InlineKeyboardButton('😕𝐂𝐋𝐎𝐒𝐄😕', callback_data='close')
+        InlineKeyboardButton('🙏𝙷𝙴𝙻𝙿🙏', callback_data='help'),
+        InlineKeyboardButton('😕𝙲𝙻𝙾𝚂𝙴😕', callback_data='close')
     ],
     [
-        InlineKeyboardButton('💖𝐎𝐖𝐍𝐄𝐑💖', url='https://t.me/SAMEER_795'),
-        InlineKeyboardButton('😁𝐒𝐔𝐏𝐏𝐎𝐑𝐓😁', url='https://t.me/joinchat/RTy_Jzvw4xEyNzM9')
+        InlineKeyboardButton('👑𝙾𝚆𝙽𝙴𝚁👑', url='https://t.me/D3_krish'),
+        InlineKeyboardButton('⚜️𝚂𝚄𝙿𝙿𝙾𝚁𝚃⚜️', url='https://t.me/D3VIL_BOT_SUPPORT')
     ],
     [
-        InlineKeyboardButton('😎𝐎𝐓𝐇𝐄𝐑 𝐁𝐎𝐓𝐒😎', url='https://t.me/joinchat/nJaoxdbmtmAzZTU1')
+        InlineKeyboardButton('🔱𝙾𝚃𝙷𝙴𝚁 𝙱𝙾𝚃🔱', url='https://t.me/D3VIL_SUPPORT')
     ]]                
   reply_markup = InlineKeyboardMarkup(buttons)
+  await Tgraph.reply_sticker("CAACAgUAAxkBAAIZFWCquxoG_Ervt_4d61DnSF3YKLI9AALGAgAClA5RVUG4_pmGDtAXHwQ")
   await Tgraph.send_message(
         chat_id=message.chat.id,
         text="""<b>Hey there I am here,
         
-I'm a Telegraph Uploader that can upload photo video and gif.
+𝙸'𝚖 𝚊 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚙𝚑 𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚛 𝚝𝚑𝚊𝚝 𝚌𝚊𝚗 𝚞𝚙𝚕𝚘𝚊𝚍 𝚙𝚑𝚘𝚝𝚘 𝚟𝚒𝚍𝚎𝚘 𝚊𝚗𝚍 𝚐𝚒𝚏.
         
-Simply send me photo, video or gif to upload to telegra.ph
+𝚂𝚒𝚖𝚙𝚕𝚢 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚙𝚑𝚘𝚝𝚘, 𝚟𝚒𝚍𝚎𝚘 𝚘𝚛 𝚐𝚒𝚏 𝚝𝚘 𝚞𝚙𝚕𝚘𝚊𝚍 𝚝𝚘 𝚝𝚎𝚕𝚎𝚐𝚛𝚊.𝚙𝚑
         
-Made with ❤️ by @SAMEER_795</b>""",
+𝙼𝚊𝚍𝚎 𝚠𝚒𝚝𝚑 ⚜️ 𝚋𝚢 @D3_krish</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
