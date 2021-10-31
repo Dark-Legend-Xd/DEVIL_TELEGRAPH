@@ -79,11 +79,11 @@ async def home(client, message):
         InlineKeyboardButton('😕𝙲𝙻𝙾𝚂𝙴😕', callback_data='close')
     ],
     [
-        InlineKeyboardButton('👑𝙾𝚆𝙽𝙴𝚁👑', url='https://t.me/D3_krish'),
-        InlineKeyboardButton('⚜️𝚂𝚄𝙿𝙿𝙾𝚁𝚃⚜️', url='https://t.me/D3VIL_BOT_SUPPORT')
+        InlineKeyboardButton('👑𝙾𝚆𝙽𝙴𝚁👑', url='https://t.me/pro_error_xd'),
+        InlineKeyboardButton('⚜️𝚂𝚄𝙿𝙿𝙾𝚁𝚃⚜️', url='https://t.me/devilbot_chat')
     ],
     [
-        InlineKeyboardButton('🔱𝙾𝚃𝙷𝙴𝚁 𝙱𝙾𝚃🔱', url='https://t.me/D3VIL_SUPPORT')
+        InlineKeyboardButton('🔱𝙾𝚃𝙷𝙴𝚁 𝙱𝙾𝚃🔱', url='https://t.me/devil_us3rb0t')
     ]]                
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
